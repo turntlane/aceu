@@ -3,9 +3,6 @@ const navLinks2 = document.getElementById('nav-links2');
 
 
 hamburger2.addEventListener('click', () => {
-    navLinks2.classList.toggle('show')
-    
-    
-    navLinks2.style.zIndex = '1000000000';
+    navLinks2.classList.toggle('show');
 });
 
